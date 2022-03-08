@@ -25,8 +25,8 @@ from sys import exit #line:28
 from os import _exit #line:29
 check_modules ()#line:31
 from os import path #line:33
-from libs .logo import print_logo #line:35
-from libs .utils import print_success #line:36
+from libs .logo import print_logo #line:6
+from libs .utils import print_success #line:6
 from libs .utils import print_error #line:37
 from libs .utils import ask_question #line:38
 from libs .utils import print_status #line:39
@@ -122,7 +122,7 @@ def main ():#line:115
     elif (int (OOO0O0000OOO0O0OO )==2 ):#line:154
         video_attack (O00O0OO00OOO0OO00 )#line:155
 if __name__ =="__main__":#line:157
-    print_logo ()#line:158
+    print_logo ()#line:6
     try :#line:159
         main ()#line:160
         print (Style .RESET_ALL )#line:161
